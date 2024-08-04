@@ -13,6 +13,16 @@ a{
     color: #E5E7EB
 }
 
+button{
+    width: max-content;
+    padding: 5px 15px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0;
+    border-radius: 5px;
+    margin-top: auto;
+}
+
 /*Hero*/
 
 .hero{
@@ -59,15 +69,6 @@ a{
     margin: 0;
 }
 
-.hero button{
-    width: max-content;
-    padding: 5px 15px;
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border: 0;
-    border-radius: 5px;
-    margin-top: auto;
-}
 
 .hero .img{
     width: 400px;
@@ -145,4 +146,34 @@ a{
     margin: 0;
     width: 550px;
     text-align: end;
+}
+
+/*Call to action*/
+
+.call{
+    display: flex;
+    justify-content: center;
+    margin: 64px auto;
+    background-color: #3882F6;
+    width: max-content;
+    padding: 24px 64px;
+    gap: 64px;
+    border-radius: 10px;
+}
+
+.call h2{
+    margin: 0;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.call p{
+    margin: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call button{
+    border: 1px solid #E5E7EB;
+    margin: auto;
 }
