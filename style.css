@@ -177,3 +177,14 @@ button{
     border: 1px solid #E5E7EB;
     margin: auto;
 }
+
+/*Footer*/
+
+.footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px;
+}
